@@ -28,149 +28,149 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox4 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox5 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox6 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox7 = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_identificacion = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_nombre = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_codigo = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_descripcion = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_existencias = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_implemento = new MaterialSkin.Controls.MaterialTextBox();
+            this.txt_cantidad = new MaterialSkin.Controls.MaterialTextBox();
             this.btn_prestar = new MaterialSkin.Controls.MaterialButton();
             this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
-            this.materialMultiLineTextBox21 = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
+            this.txt_observaciones = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.btn_agregar = new MaterialSkin.Controls.MaterialButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dtg_prestamo = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).BeginInit();
             this.SuspendLayout();
             // 
-            // materialTextBox1
+            // txt_identificacion
             // 
-            this.materialTextBox1.AnimateReadOnly = false;
-            this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox1.Hint = "Identificacion persona";
-            this.materialTextBox1.LeadingIcon = null;
-            this.materialTextBox1.Location = new System.Drawing.Point(36, 31);
-            this.materialTextBox1.MaxLength = 50;
-            this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox1.Multiline = false;
-            this.materialTextBox1.Name = "materialTextBox1";
-            this.materialTextBox1.Size = new System.Drawing.Size(274, 50);
-            this.materialTextBox1.TabIndex = 0;
-            this.materialTextBox1.Text = "";
-            this.materialTextBox1.TrailingIcon = null;
+            this.txt_identificacion.AnimateReadOnly = false;
+            this.txt_identificacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_identificacion.Depth = 0;
+            this.txt_identificacion.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_identificacion.Hint = "Identificacion persona";
+            this.txt_identificacion.LeadingIcon = null;
+            this.txt_identificacion.Location = new System.Drawing.Point(36, 31);
+            this.txt_identificacion.MaxLength = 50;
+            this.txt_identificacion.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_identificacion.Multiline = false;
+            this.txt_identificacion.Name = "txt_identificacion";
+            this.txt_identificacion.Size = new System.Drawing.Size(274, 50);
+            this.txt_identificacion.TabIndex = 0;
+            this.txt_identificacion.Text = "";
+            this.txt_identificacion.TrailingIcon = null;
             // 
-            // materialTextBox2
+            // txt_nombre
             // 
-            this.materialTextBox2.AnimateReadOnly = false;
-            this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox2.Depth = 0;
-            this.materialTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox2.Hint = "Nombre persona";
-            this.materialTextBox2.LeadingIcon = null;
-            this.materialTextBox2.Location = new System.Drawing.Point(338, 31);
-            this.materialTextBox2.MaxLength = 50;
-            this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox2.Multiline = false;
-            this.materialTextBox2.Name = "materialTextBox2";
-            this.materialTextBox2.ReadOnly = true;
-            this.materialTextBox2.Size = new System.Drawing.Size(421, 50);
-            this.materialTextBox2.TabIndex = 1;
-            this.materialTextBox2.Text = "";
-            this.materialTextBox2.TrailingIcon = null;
+            this.txt_nombre.AnimateReadOnly = false;
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_nombre.Depth = 0;
+            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre.Hint = "Nombre persona";
+            this.txt_nombre.LeadingIcon = null;
+            this.txt_nombre.Location = new System.Drawing.Point(338, 31);
+            this.txt_nombre.MaxLength = 50;
+            this.txt_nombre.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_nombre.Multiline = false;
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.ReadOnly = true;
+            this.txt_nombre.Size = new System.Drawing.Size(421, 50);
+            this.txt_nombre.TabIndex = 1;
+            this.txt_nombre.Text = "";
+            this.txt_nombre.TrailingIcon = null;
             // 
-            // materialTextBox3
+            // txt_codigo
             // 
-            this.materialTextBox3.AnimateReadOnly = false;
-            this.materialTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox3.Depth = 0;
-            this.materialTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox3.Hint = "Codigo del implemento";
-            this.materialTextBox3.LeadingIcon = null;
-            this.materialTextBox3.Location = new System.Drawing.Point(36, 102);
-            this.materialTextBox3.MaxLength = 50;
-            this.materialTextBox3.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox3.Multiline = false;
-            this.materialTextBox3.Name = "materialTextBox3";
-            this.materialTextBox3.Size = new System.Drawing.Size(274, 50);
-            this.materialTextBox3.TabIndex = 2;
-            this.materialTextBox3.Text = "";
-            this.materialTextBox3.TrailingIcon = null;
+            this.txt_codigo.AnimateReadOnly = false;
+            this.txt_codigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_codigo.Depth = 0;
+            this.txt_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_codigo.Hint = "Codigo del implemento";
+            this.txt_codigo.LeadingIcon = null;
+            this.txt_codigo.Location = new System.Drawing.Point(36, 102);
+            this.txt_codigo.MaxLength = 50;
+            this.txt_codigo.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_codigo.Multiline = false;
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(274, 50);
+            this.txt_codigo.TabIndex = 2;
+            this.txt_codigo.Text = "";
+            this.txt_codigo.TrailingIcon = null;
             // 
-            // materialTextBox4
+            // txt_descripcion
             // 
-            this.materialTextBox4.AnimateReadOnly = false;
-            this.materialTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox4.Depth = 0;
-            this.materialTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox4.Hint = "Descripcion";
-            this.materialTextBox4.LeadingIcon = null;
-            this.materialTextBox4.Location = new System.Drawing.Point(338, 102);
-            this.materialTextBox4.MaxLength = 50;
-            this.materialTextBox4.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox4.Multiline = false;
-            this.materialTextBox4.Name = "materialTextBox4";
-            this.materialTextBox4.ReadOnly = true;
-            this.materialTextBox4.Size = new System.Drawing.Size(421, 50);
-            this.materialTextBox4.TabIndex = 3;
-            this.materialTextBox4.Text = "";
-            this.materialTextBox4.TrailingIcon = null;
+            this.txt_descripcion.AnimateReadOnly = false;
+            this.txt_descripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_descripcion.Depth = 0;
+            this.txt_descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_descripcion.Hint = "Descripcion";
+            this.txt_descripcion.LeadingIcon = null;
+            this.txt_descripcion.Location = new System.Drawing.Point(338, 102);
+            this.txt_descripcion.MaxLength = 50;
+            this.txt_descripcion.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_descripcion.Multiline = false;
+            this.txt_descripcion.Name = "txt_descripcion";
+            this.txt_descripcion.ReadOnly = true;
+            this.txt_descripcion.Size = new System.Drawing.Size(421, 50);
+            this.txt_descripcion.TabIndex = 3;
+            this.txt_descripcion.Text = "";
+            this.txt_descripcion.TrailingIcon = null;
             // 
-            // materialTextBox5
+            // txt_existencias
             // 
-            this.materialTextBox5.AnimateReadOnly = false;
-            this.materialTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox5.Depth = 0;
-            this.materialTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox5.Hint = "Existencias";
-            this.materialTextBox5.LeadingIcon = null;
-            this.materialTextBox5.Location = new System.Drawing.Point(36, 170);
-            this.materialTextBox5.MaxLength = 50;
-            this.materialTextBox5.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox5.Multiline = false;
-            this.materialTextBox5.Name = "materialTextBox5";
-            this.materialTextBox5.Size = new System.Drawing.Size(274, 50);
-            this.materialTextBox5.TabIndex = 4;
-            this.materialTextBox5.Text = "";
-            this.materialTextBox5.TrailingIcon = null;
+            this.txt_existencias.AnimateReadOnly = false;
+            this.txt_existencias.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_existencias.Depth = 0;
+            this.txt_existencias.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_existencias.Hint = "Existencias";
+            this.txt_existencias.LeadingIcon = null;
+            this.txt_existencias.Location = new System.Drawing.Point(36, 170);
+            this.txt_existencias.MaxLength = 50;
+            this.txt_existencias.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_existencias.Multiline = false;
+            this.txt_existencias.Name = "txt_existencias";
+            this.txt_existencias.Size = new System.Drawing.Size(274, 50);
+            this.txt_existencias.TabIndex = 4;
+            this.txt_existencias.Text = "";
+            this.txt_existencias.TrailingIcon = null;
             // 
-            // materialTextBox6
+            // txt_implemento
             // 
-            this.materialTextBox6.AnimateReadOnly = false;
-            this.materialTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox6.Depth = 0;
-            this.materialTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox6.Hint = "Nombre del implemento";
-            this.materialTextBox6.LeadingIcon = null;
-            this.materialTextBox6.Location = new System.Drawing.Point(338, 170);
-            this.materialTextBox6.MaxLength = 50;
-            this.materialTextBox6.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox6.Multiline = false;
-            this.materialTextBox6.Name = "materialTextBox6";
-            this.materialTextBox6.ReadOnly = true;
-            this.materialTextBox6.Size = new System.Drawing.Size(421, 50);
-            this.materialTextBox6.TabIndex = 5;
-            this.materialTextBox6.Text = "";
-            this.materialTextBox6.TrailingIcon = null;
+            this.txt_implemento.AnimateReadOnly = false;
+            this.txt_implemento.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_implemento.Depth = 0;
+            this.txt_implemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_implemento.Hint = "Nombre del implemento";
+            this.txt_implemento.LeadingIcon = null;
+            this.txt_implemento.Location = new System.Drawing.Point(338, 170);
+            this.txt_implemento.MaxLength = 50;
+            this.txt_implemento.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_implemento.Multiline = false;
+            this.txt_implemento.Name = "txt_implemento";
+            this.txt_implemento.ReadOnly = true;
+            this.txt_implemento.Size = new System.Drawing.Size(421, 50);
+            this.txt_implemento.TabIndex = 5;
+            this.txt_implemento.Text = "";
+            this.txt_implemento.TrailingIcon = null;
             // 
-            // materialTextBox7
+            // txt_cantidad
             // 
-            this.materialTextBox7.AnimateReadOnly = false;
-            this.materialTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox7.Depth = 0;
-            this.materialTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox7.Hint = "Cantidad a prestar";
-            this.materialTextBox7.LeadingIcon = null;
-            this.materialTextBox7.Location = new System.Drawing.Point(36, 237);
-            this.materialTextBox7.MaxLength = 50;
-            this.materialTextBox7.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox7.Multiline = false;
-            this.materialTextBox7.Name = "materialTextBox7";
-            this.materialTextBox7.Size = new System.Drawing.Size(274, 50);
-            this.materialTextBox7.TabIndex = 6;
-            this.materialTextBox7.Text = "";
-            this.materialTextBox7.TrailingIcon = null;
+            this.txt_cantidad.AnimateReadOnly = false;
+            this.txt_cantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_cantidad.Depth = 0;
+            this.txt_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_cantidad.Hint = "Cantidad a prestar";
+            this.txt_cantidad.LeadingIcon = null;
+            this.txt_cantidad.Location = new System.Drawing.Point(36, 237);
+            this.txt_cantidad.MaxLength = 50;
+            this.txt_cantidad.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_cantidad.Multiline = false;
+            this.txt_cantidad.Name = "txt_cantidad";
+            this.txt_cantidad.Size = new System.Drawing.Size(274, 50);
+            this.txt_cantidad.TabIndex = 6;
+            this.txt_cantidad.Text = "";
+            this.txt_cantidad.TrailingIcon = null;
             // 
             // btn_prestar
             // 
@@ -210,32 +210,33 @@
             this.btn_cancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_cancelar.UseAccentColor = false;
             this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
-            // materialMultiLineTextBox21
+            // txt_observaciones
             // 
-            this.materialMultiLineTextBox21.AnimateReadOnly = false;
-            this.materialMultiLineTextBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialMultiLineTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialMultiLineTextBox21.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.materialMultiLineTextBox21.Depth = 0;
-            this.materialMultiLineTextBox21.HideSelection = true;
-            this.materialMultiLineTextBox21.Hint = "OBSERVACIONES";
-            this.materialMultiLineTextBox21.Location = new System.Drawing.Point(338, 237);
-            this.materialMultiLineTextBox21.MaxLength = 32767;
-            this.materialMultiLineTextBox21.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialMultiLineTextBox21.Name = "materialMultiLineTextBox21";
-            this.materialMultiLineTextBox21.PasswordChar = '\0';
-            this.materialMultiLineTextBox21.ReadOnly = false;
-            this.materialMultiLineTextBox21.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.materialMultiLineTextBox21.SelectedText = "";
-            this.materialMultiLineTextBox21.SelectionLength = 0;
-            this.materialMultiLineTextBox21.SelectionStart = 0;
-            this.materialMultiLineTextBox21.ShortcutsEnabled = true;
-            this.materialMultiLineTextBox21.Size = new System.Drawing.Size(421, 111);
-            this.materialMultiLineTextBox21.TabIndex = 9;
-            this.materialMultiLineTextBox21.TabStop = false;
-            this.materialMultiLineTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialMultiLineTextBox21.UseSystemPasswordChar = false;
+            this.txt_observaciones.AnimateReadOnly = false;
+            this.txt_observaciones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txt_observaciones.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_observaciones.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_observaciones.Depth = 0;
+            this.txt_observaciones.HideSelection = true;
+            this.txt_observaciones.Hint = "OBSERVACIONES";
+            this.txt_observaciones.Location = new System.Drawing.Point(338, 237);
+            this.txt_observaciones.MaxLength = 32767;
+            this.txt_observaciones.MouseState = MaterialSkin.MouseState.OUT;
+            this.txt_observaciones.Name = "txt_observaciones";
+            this.txt_observaciones.PasswordChar = '\0';
+            this.txt_observaciones.ReadOnly = false;
+            this.txt_observaciones.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_observaciones.SelectedText = "";
+            this.txt_observaciones.SelectionLength = 0;
+            this.txt_observaciones.SelectionStart = 0;
+            this.txt_observaciones.ShortcutsEnabled = true;
+            this.txt_observaciones.Size = new System.Drawing.Size(421, 111);
+            this.txt_observaciones.TabIndex = 9;
+            this.txt_observaciones.TabStop = false;
+            this.txt_observaciones.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_observaciones.UseSystemPasswordChar = false;
             // 
             // btn_agregar
             // 
@@ -256,37 +257,37 @@
             this.btn_agregar.UseAccentColor = false;
             this.btn_agregar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dtg_prestamo
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(36, 379);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(723, 150);
-            this.dataGridView1.TabIndex = 11;
+            this.dtg_prestamo.AllowUserToAddRows = false;
+            this.dtg_prestamo.AllowUserToDeleteRows = false;
+            this.dtg_prestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtg_prestamo.Location = new System.Drawing.Point(36, 379);
+            this.dtg_prestamo.Name = "dtg_prestamo";
+            this.dtg_prestamo.ReadOnly = true;
+            this.dtg_prestamo.Size = new System.Drawing.Size(723, 150);
+            this.dtg_prestamo.TabIndex = 11;
             // 
             // frm_prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 579);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtg_prestamo);
             this.Controls.Add(this.btn_agregar);
-            this.Controls.Add(this.materialMultiLineTextBox21);
+            this.Controls.Add(this.txt_observaciones);
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.btn_prestar);
-            this.Controls.Add(this.materialTextBox7);
-            this.Controls.Add(this.materialTextBox6);
-            this.Controls.Add(this.materialTextBox5);
-            this.Controls.Add(this.materialTextBox4);
-            this.Controls.Add(this.materialTextBox3);
-            this.Controls.Add(this.materialTextBox2);
-            this.Controls.Add(this.materialTextBox1);
+            this.Controls.Add(this.txt_cantidad);
+            this.Controls.Add(this.txt_implemento);
+            this.Controls.Add(this.txt_existencias);
+            this.Controls.Add(this.txt_descripcion);
+            this.Controls.Add(this.txt_codigo);
+            this.Controls.Add(this.txt_nombre);
+            this.Controls.Add(this.txt_identificacion);
             this.Name = "frm_prestamos";
             this.Text = "frm_prestamos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_prestamo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,17 +295,17 @@
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox3;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox4;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox5;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox6;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox7;
+        private MaterialSkin.Controls.MaterialTextBox txt_identificacion;
+        private MaterialSkin.Controls.MaterialTextBox txt_nombre;
+        private MaterialSkin.Controls.MaterialTextBox txt_codigo;
+        private MaterialSkin.Controls.MaterialTextBox txt_descripcion;
+        private MaterialSkin.Controls.MaterialTextBox txt_existencias;
+        private MaterialSkin.Controls.MaterialTextBox txt_implemento;
+        private MaterialSkin.Controls.MaterialTextBox txt_cantidad;
         private MaterialSkin.Controls.MaterialButton btn_prestar;
         private MaterialSkin.Controls.MaterialButton btn_cancelar;
-        private MaterialSkin.Controls.MaterialMultiLineTextBox2 materialMultiLineTextBox21;
+        private MaterialSkin.Controls.MaterialMultiLineTextBox2 txt_observaciones;
         private MaterialSkin.Controls.MaterialButton btn_agregar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtg_prestamo;
     }
 }
