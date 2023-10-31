@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cls_conexion.cs" />
+    <Compile Include="cls_implementos.cs" />
     <Compile Include="cls_modulo_usuarios.cs" />
+    <Compile Include="cls_roles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

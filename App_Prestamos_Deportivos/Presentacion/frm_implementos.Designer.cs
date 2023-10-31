@@ -32,9 +32,9 @@
             this.txt_nombre = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_cantidad = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_valor = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            this.btn_actualizar = new MaterialSkin.Controls.MaterialButton();
+            this.btn_guardar = new MaterialSkin.Controls.MaterialButton();
+            this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
             this.txt_descripcion = new MaterialSkin.Controls.MaterialMultiLineTextBox2();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             this.txt_nombre.AnimateReadOnly = false;
             this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_nombre.Depth = 0;
-            this.txt_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombre";
             this.txt_nombre.LeadingIcon = null;
             this.txt_nombre.Location = new System.Drawing.Point(290, 51);
@@ -97,7 +97,7 @@
             this.txt_valor.AnimateReadOnly = false;
             this.txt_valor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_valor.Depth = 0;
-            this.txt_valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_valor.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_valor.Hint = "Valor";
             this.txt_valor.LeadingIcon = null;
             this.txt_valor.Location = new System.Drawing.Point(290, 259);
@@ -110,64 +110,65 @@
             this.txt_valor.Text = "";
             this.txt_valor.TrailingIcon = null;
             // 
-            // materialButton1
+            // btn_actualizar
             // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(199, 347);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(109, 36);
-            this.materialButton1.TabIndex = 5;
-            this.materialButton1.Text = "ACTUALIZAR";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
-            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
+            this.btn_actualizar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_actualizar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_actualizar.Depth = 0;
+            this.btn_actualizar.HighEmphasis = true;
+            this.btn_actualizar.Icon = null;
+            this.btn_actualizar.Location = new System.Drawing.Point(199, 347);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_actualizar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_actualizar.Size = new System.Drawing.Size(109, 36);
+            this.btn_actualizar.TabIndex = 5;
+            this.btn_actualizar.Text = "ACTUALIZAR";
+            this.btn_actualizar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_actualizar.UseAccentColor = false;
+            this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.materialButton1_Click);
             // 
-            // materialButton2
+            // btn_guardar
             // 
-            this.materialButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton2.Depth = 0;
-            this.materialButton2.HighEmphasis = true;
-            this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(334, 347);
-            this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton2.Name = "materialButton2";
-            this.materialButton2.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton2.Size = new System.Drawing.Size(88, 36);
-            this.materialButton2.TabIndex = 6;
-            this.materialButton2.Text = "GUARDAR";
-            this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton2.UseAccentColor = false;
-            this.materialButton2.UseVisualStyleBackColor = true;
+            this.btn_guardar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_guardar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_guardar.Depth = 0;
+            this.btn_guardar.HighEmphasis = true;
+            this.btn_guardar.Icon = null;
+            this.btn_guardar.Location = new System.Drawing.Point(334, 347);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_guardar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_guardar.Size = new System.Drawing.Size(88, 36);
+            this.btn_guardar.TabIndex = 6;
+            this.btn_guardar.Text = "GUARDAR";
+            this.btn_guardar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_guardar.UseAccentColor = false;
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.materialButton2_Click);
             // 
-            // materialButton3
+            // btn_cancelar
             // 
-            this.materialButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton3.Depth = 0;
-            this.materialButton3.HighEmphasis = true;
-            this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(446, 347);
-            this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton3.Name = "materialButton3";
-            this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(96, 36);
-            this.materialButton3.TabIndex = 7;
-            this.materialButton3.Text = "CANCELAR";
-            this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton3.UseAccentColor = false;
-            this.materialButton3.UseVisualStyleBackColor = true;
-            this.materialButton3.Click += new System.EventHandler(this.materialButton3_Click);
+            this.btn_cancelar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_cancelar.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.btn_cancelar.Depth = 0;
+            this.btn_cancelar.HighEmphasis = true;
+            this.btn_cancelar.Icon = null;
+            this.btn_cancelar.Location = new System.Drawing.Point(446, 347);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.btn_cancelar.Size = new System.Drawing.Size(96, 36);
+            this.btn_cancelar.TabIndex = 7;
+            this.btn_cancelar.Text = "CANCELAR";
+            this.btn_cancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.btn_cancelar.UseAccentColor = false;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.materialButton3_Click);
             // 
             // txt_descripcion
             // 
@@ -201,9 +202,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 423);
             this.Controls.Add(this.txt_descripcion);
-            this.Controls.Add(this.materialButton3);
-            this.Controls.Add(this.materialButton2);
-            this.Controls.Add(this.materialButton1);
+            this.Controls.Add(this.btn_cancelar);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.txt_valor);
             this.Controls.Add(this.txt_cantidad);
             this.Controls.Add(this.txt_nombre);
@@ -220,9 +221,9 @@
         private MaterialSkin.Controls.MaterialTextBox txt_nombre;
         private MaterialSkin.Controls.MaterialTextBox txt_cantidad;
         private MaterialSkin.Controls.MaterialTextBox txt_valor;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
-        private MaterialSkin.Controls.MaterialButton materialButton2;
-        private MaterialSkin.Controls.MaterialButton materialButton3;
+        private MaterialSkin.Controls.MaterialButton btn_actualizar;
+        private MaterialSkin.Controls.MaterialButton btn_guardar;
+        private MaterialSkin.Controls.MaterialButton btn_cancelar;
         private MaterialSkin.Controls.MaterialMultiLineTextBox2 txt_descripcion;
     }
 }

@@ -30,5 +30,16 @@ namespace Presentacion
             txt_cantidad.Clear();
             txt_descripcion.Clear();
         }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            cls_implementos obj_guardar = new cls_implementos();
+            obj_guardar.fnt_registrar(
+            txt_codigo.Text,
+            txt_nombre.Text,
+            txt_descripcion.Text,
+            Convert.ToDouble(txt_valor.Text),
+            Convert.ToInt16(txt_cantidad.Text));
+        }
     }
 }
